@@ -9,7 +9,7 @@ Also a platform to showcase previous projects / link to relevant websites / soci
 The important UX aspect here is to have the proper information displayed very accessably.
 (Which would be the showcased previous projects, a resumé and a way to get a hold of the person)
 
-Here is a link to the projects wireframe : [Wireframe](https://www.emilohlund.se/wireframe.jpg)
+The wireframe is in a .png file in this repository.
 
 ## Features
 1. Fixed Navbar (With a constant hamburger icon)
