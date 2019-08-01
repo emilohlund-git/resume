@@ -2,6 +2,8 @@
 Portfolio example site I've created for the first milestone project
 for Code Institute's User Centric Frontend Development module.
 
+[This project on github pages](https://emilohlund-git.github.io/resume/.)
+
 ## UX
 Essentially this website is for the person who owns it, to show off his / hers talent.
 Also a platform to showcase previous projects / link to relevant websites / social media platforms.
