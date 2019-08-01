@@ -57,9 +57,10 @@ for (button of buttons) {
     }
 }
 
-
 //Showing the modal if the form is filled out and user clicks submit
+//Aswell as reset the form.
 $('#email-form').on('submit', function(e) {
     e.preventDefault(); //stop submit
     $('#email-modal').modal('show');
+    $('#email-form').trigger("reset");
 });

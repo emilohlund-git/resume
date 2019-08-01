@@ -51,7 +51,7 @@
     .text-menu {
         color: #333;
         font-family: "Roboto Condensed", sans-serif;
-        font-size: 15px;
+        font-size: 18px;
         text-decoration: none;
         font-weight: 600;
         margin-left: 0px;
@@ -75,9 +75,15 @@
         text-transform: uppercase;
     }
     
+    .hero-image-header {
+        font-size: 65px;
+        position: relative;
+    }
+    
     .hero-image-lead {
+        position: relative;
         font-family: "Roboto Condensed", sans-serif;
-        font-size: 20px;
+        font-size: 18px;
     }
     
     .about-me-lead {
@@ -90,12 +96,18 @@
     
     .portfolio-header {
         padding: 0 0 50px 0;
+        margin: 0;
     }
     
     .form-label {
         font-family: "Roboto Condensed", sans-serif;
         font-size: 17px;
         padding: 15px 0 15px 0;
+    }
+    
+    .about-text {
+        color: #333;
+        font-weight: 700;
     }
     /* BUTTONS */
     
@@ -113,7 +125,7 @@
     .jumbotron {
         background-attachment: fixed;
         background-position: center;
-        background-image: url("../images/placeholder_man.png");
+        background-image: url("../images/hero-image-background.jpeg");
         background-size: cover;
         background-repeat: no-repeat;
         height: 90vh;
@@ -125,6 +137,13 @@
         padding-top: 25vh;
     }
     /* CONTAINERS */
+    
+    .card,
+    .card-body {
+        color: rgb(190, 190, 190);
+        background-color: rgba(31, 31, 31, 0);
+        border: 0;
+    }
     
     .collapse,
     .p-4 {
@@ -140,15 +159,18 @@
         color: rgb(112, 111, 107);
         font-weight: 100;
         height: 100%;
-        padding-top: 25vh;
         padding: 25vh 35px 0 35px;
     }
     
     #portfolio-container {
-        color: rgb(112, 111, 107);
+        background-attachment: fixed;
+        background-position: center;
+        background-image: linear-gradient(to bottom, rgb(255, 255, 255), rgba(255, 255, 255, 0.425)), url("../images/portfolio-background.jpeg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        color: rgb(172, 172, 172);
         font-weight: 100;
         height: 100%;
-        padding-top: 25vh;
         padding: 25vh 35px 0 35px;
     }
     
@@ -250,7 +272,7 @@
     .carousel,
     .carousel-item,
     .carousel-item-active {
-        background-color: #333;
+        background-color: rgba(49, 49, 49, 0);
         padding: 50px 0;
     }
     /* MODALS */
@@ -294,12 +316,22 @@
             padding: 25vh 25px 25vh 25px;
             text-align: center;
         }
+        #portfolio-container {
+            background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.37), rgba(0, 0, 0, 0.9)), url("../images/portfolio-background-mobile.jpeg");
+            color: #fff;
+            padding: 0;
+            padding-top: 25vh;
+        }
+        .portfolio-header {
+            font-size: 50px;
+        }
         .jumbotron {
+            background-image: url("../images/hero-image-background-mobile.jpg");
             margin: 0 auto;
-            padding: 40vw 35px;
+            padding: 30vw 35px;
         }
         .jumbotron>p {
-            text-align: justify;
+            text-align: center;
         }
         .text-menu {
             color: #333;
@@ -310,5 +342,11 @@
             width: 250px;
             padding: 0 1.5rem 1rem 1.5rem !important;
             margin: 0;
+        }
+        .carousel-container {
+            padding-bottom: 25vh;
+        }
+        .hero-image-header {
+            font-size: 55px;
         }
     }
