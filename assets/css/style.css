@@ -1,0 +1,314 @@
+    @import url('https://fonts.googleapis.com/css?family=Heebo|Roboto+Condensed&display=swap');
+    /* Navbar */
+    
+    .fixed-top {
+        right: 100vw;
+    }
+    
+    .navbar {
+        padding: 1.55rem .25rem;
+        justify-content: left;
+        background-color: transparent;
+        border: none;
+    }
+    
+    .navbar-toggler {
+        border: 0;
+        padding: .25rem .15rem .35rem 1.35rem;
+    }
+    
+    .line-one,
+    .line-two,
+    .line-three {
+        width: 35px;
+        height: 5px;
+        background-color: #333;
+        margin: 7px 0;
+        transition: 0.3s;
+    }
+    
+    .rotate .line-one {
+        transform: rotate(-45deg) translate(-8px, 9px);
+    }
+    
+    .rotate .line-two {
+        opacity: 0;
+    }
+    
+    .rotate .line-three {
+        transform: rotate(45deg) translate(-8px, -9px);
+    }
+    /* TEXT ELEMENTS */
+    
+    .navbar-text {
+        font-family: "Heebo", sans-serif;
+        font-size: 34px;
+        font-weight: 800;
+        padding: 0;
+        margin: 0;
+    }
+    
+    .text-menu {
+        color: #333;
+        font-family: "Roboto Condensed", sans-serif;
+        font-size: 15px;
+        text-decoration: none;
+        font-weight: 600;
+        margin-left: 0px;
+        transition: all 0.2s cubic-bezier(0.000, 0.000, 0.580, 1.000);
+    }
+    
+    .text-menu:hover {
+        color: #333;
+        text-decoration: none;
+        margin-left: 5px;
+    }
+    
+    .text-nav {
+        font-weight: 700;
+        color: rgb(185, 185, 185);
+        margin-top: 16px;
+        font-size: 38px;
+    }
+    
+    .uppercase {
+        text-transform: uppercase;
+    }
+    
+    .hero-image-lead {
+        font-family: "Roboto Condensed", sans-serif;
+        font-size: 20px;
+    }
+    
+    .about-me-lead {
+        padding: 100px 75px 150px 75px;
+        font-weight: 200;
+        font-family: "Roboto Condensed", sans-serif;
+        font-size: 24px;
+        color: rgb(99, 99, 99);
+    }
+    
+    .portfolio-header {
+        padding: 0 0 50px 0;
+    }
+    
+    .form-label {
+        font-family: "Roboto Condensed", sans-serif;
+        font-size: 17px;
+        padding: 15px 0 15px 0;
+    }
+    /* BUTTONS */
+    
+    .btn {
+        background-color: #333;
+        border: 0;
+        border-radius: 45px;
+    }
+    
+    #email-form>.btn {
+        border-radius: 0;
+    }
+    /* HERO IMAGE */
+    
+    .jumbotron {
+        background-attachment: fixed;
+        background-position: center;
+        background-image: url("../images/placeholder_man.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 90vh;
+        margin: 0 auto;
+    }
+    
+    .vertical-center {
+        text-align: center;
+        padding-top: 25vh;
+    }
+    /* CONTAINERS */
+    
+    .collapse,
+    .p-4 {
+        width: 150px;
+    }
+    
+    #about-container {
+        background-attachment: fixed;
+        background-position: center;
+        background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.52), rgba(255, 255, 255, 0.73)), url("../images/background-computer.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        color: rgb(112, 111, 107);
+        font-weight: 100;
+        height: 100%;
+        padding-top: 25vh;
+        padding: 25vh 35px 0 35px;
+    }
+    
+    #portfolio-container {
+        color: rgb(112, 111, 107);
+        font-weight: 100;
+        height: 100%;
+        padding-top: 25vh;
+        padding: 25vh 35px 0 35px;
+    }
+    
+    .row {
+        text-align: center;
+    }
+    
+    .card-deck {
+        padding-bottom: 250px;
+    }
+    
+    #footer-container {
+        padding: 15px 0 15px 0;
+        text-align: center;
+        background-color: rgb(192, 192, 192);
+        height: 100%;
+    }
+    
+    .form-container {
+        padding: 0 35px 100px 35px;
+    }
+    
+    #contact-container {
+        padding: 25vh 0 25vh 0;
+        background-attachment: fixed;
+        background-position: center;
+        background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.9)), url("../images/contact-background.jpeg");
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    
+    .col-md-6 {
+        padding-bottom: 55px;
+    }
+    /* FONT-AWESOME */
+    
+    .col>i {
+        cursor: pointer;
+        padding-top: 50px;
+        font-size: 95px;
+        color: rgb(102, 102, 102);
+        transition: all 0.5s cubic-bezier(0.000, 0.000, 0.580, 1.000);
+    }
+    
+    .col>#html5:hover {
+        font-size: 105px;
+        color: rgb(216, 92, 9);
+    }
+    
+    .col>#css3:hover {
+        font-size: 105px;
+        color: rgb(16, 35, 214);
+    }
+    
+    .col>#javascript:hover {
+        font-size: 105px;
+        color: rgb(211, 214, 16);
+    }
+    
+    .col>#java:hover {
+        font-size: 105px;
+        color: rgb(103, 111, 128);
+    }
+    
+    #footer-container>a {
+        text-decoration: none;
+    }
+    
+    #footer-container>a i {
+        font-size: 45px;
+        padding: 0 10px 0 10px;
+        color: #fff;
+    }
+    
+    #facebook,
+    #instagram,
+    #linkedin,
+    #github {
+        transition: color 0.1s cubic-bezier(0.000, 0.000, 0.580, 1.000);
+    }
+    
+    #facebook:hover {
+        color: rgb(21, 48, 170);
+    }
+    
+    #instagram:hover {
+        color: rgb(173, 24, 153);
+    }
+    
+    #linkedin:hover {
+        color: rgb(70, 98, 141);
+    }
+    
+    #github:hover {
+        color: rgb(0, 0, 0);
+    }
+    /* CAROUSEL */
+    
+    .carousel,
+    .carousel-item,
+    .carousel-item-active {
+        background-color: #333;
+        padding: 50px 0;
+    }
+    /* MODALS */
+    
+    .modal-dialog {
+        height: 100%;
+        width: 100%;
+        display: flex;
+        align-items: center;
+    }
+    
+    .modal-content {
+        margin: 0 auto;
+    }
+    /* MEDIA QUERIES*/
+    
+    @media(max-width: 900px) {
+        .col>i {
+            font-size: 120px;
+        }
+        .col>i:hover {
+            color: rgb(16, 35, 214);
+        }
+        .col>#html5 {
+            font-size: 105px;
+            color: rgb(216, 92, 9);
+        }
+        .col>#css3 {
+            font-size: 105px;
+            color: rgb(16, 35, 214);
+        }
+        .col>#javascript {
+            font-size: 105px;
+            color: rgb(211, 214, 16);
+        }
+        .col>#java {
+            font-size: 105px;
+            color: rgb(103, 111, 128);
+        }
+        #about-container {
+            padding: 25vh 25px 25vh 25px;
+            text-align: center;
+        }
+        .jumbotron {
+            margin: 0 auto;
+            padding: 40vw 35px;
+        }
+        .jumbotron>p {
+            text-align: justify;
+        }
+        .text-menu {
+            color: #333;
+            font-family: "Roboto Condensed", sans-serif;
+            font-size: 25px;
+        }
+        .p-4 {
+            width: 250px;
+            padding: 0 1.5rem 1rem 1.5rem !important;
+            margin: 0;
+        }
+    }
