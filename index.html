@@ -51,7 +51,9 @@
         <div class="jumbotron jumbotron-fluid vertical-center">
             <h1 class="display-4 uppercase hero-image-header">Hello, world!</h1>
             <p class="lead hero-image-lead" id="hero-lead">This is a simple hero unit, a simple jumbotron-style.</p>
-            <a class="btn btn-primary btn-lg cta-button" id="cta-button" href="#contact" role="button">Get in touch!</a>
+            <a class="btn btn-primary btn-lg cta-button" data-hover="Do it!" id="cta-button" href="#contact" role="button">
+                <div>Get in touch!</div>
+            </a>
         </div>
     </section>
 
@@ -229,23 +231,25 @@
 
     <!-- PORTFOLIO -->
     <section id="contact">
-        <div class="container-fluid " id="contact-container">
+        <div class="container-fluid" id="contact-container">
             <h2 class="display-4 uppercase text-center portfolio-header">Reach out to me</h2>
 
             <!-- EMAIL FORM -->
             <div class="form-container">
-                <form id="email-form" data-toggle="modal">
-                    <!-- EMAIL -->
-                    <label class="form-label" for="email">Email Address</label>
-                    <input type="email" class="form-control " id="email" placeholder="Enter your email address. " required>
-                    <!-- NAME -->
-                    <label class="form-label" for="name">Name</label>
-                    <input type="text" class="form-control" id="name" placeholder="Enter your name. " required>
-                    <!-- MESSAGE -->
-                    <label class="form-label" for="message">Enter your message</label>
-                    <textarea class="form-control" id="message" rows="3" required></textarea>
-                    <button type="submit" class="btn btn-primary">Submit</button>
-                </form>
+                <div class="col-md-6 position-center">
+                    <form id="email-form" data-toggle="modal">
+                        <!-- EMAIL -->
+                        <label class="form-label" for="email">Email Address</label>
+                        <input type="email" class="form-control " id="email" placeholder="Enter your email address. " required>
+                        <!-- NAME -->
+                        <label class="form-label" for="name">Name</label>
+                        <input type="text" class="form-control" id="name" placeholder="Enter your name. " required>
+                        <!-- MESSAGE -->
+                        <label class="form-label" for="message">Enter your message</label>
+                        <textarea class="form-control" id="message" rows="3" required></textarea>
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                    </form>
+                </div>
             </div>
 
             <!-- FORM MODAL -->

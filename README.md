@@ -26,6 +26,8 @@ The wireframe is in a .png file in this repository.
 * Great way to be able to get in touch as easy, and as fast as possible.
 7. Footer with social media links
 * Recognizable, fast way to showcase the platforms where you are active.
+8. Animated the landing page and the CTA button
+* Stiffens up the landing page.
 
 ## Technologies Used
 1. [Bootstrap](https://getbootstrap.com/docs/4.1/getting-started/introduction/)
